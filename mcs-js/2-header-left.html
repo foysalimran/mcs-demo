@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSupport - Facebook Messenger Help & Support Plugin for JavaScript</title>
+    <!-- ========== Fontawesome icon ========== -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/mSupport-main.css" />
+  </head>
+
+  <body>
+    <!-- ========== CHAT POPUP ========== -->
+    <div class="mSupport">
+      <button class="mSupport-bubble circle-bubble circle-animation-1">
+        <span class="open-icon">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </span>
+        <span class="close-icon">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+      </button>
+      <div
+        class="mSupport__popup animation13 chat-availability"
+        data-timezone=""
+        data-availability='{ "sunday":"00:00-00:01", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'
+      >
+        <div class="mSupport__popup--header">
+          <div class="image">
+            <img src="assets/image/user.webp" alt="user" />
+          </div>
+          <div class="info">
+            <h4 class="info__name">John Doe</h4>
+            <p class="info__title">
+              Text now to get instant response
+            </p>
+          </div>
+        </div>
+        <div class="mSupport__popup--content">
+          <div class="current-time"></div>
+          <div class="sms">
+            <div class="sms__user">
+              <img src="assets/image/user.webp" alt="user" />
+            </div>
+            <div class="sms__text">
+              <p>
+                Hello, Welcome to the site. Looking for the best offer? Text me by clicking below button I will be happy to find your perfect option.
+              </p>
+            </div>
+          </div>
+          <button class="mSupport__send-message" target="_blank">
+            <i class="fa-brands fa-facebook-messenger"></i>Start Chat
+            <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--====== Moment js ======-->
+    <script src="assets/js/moment.min.js"></script>
+    <!--====== Moment Timezone js ======-->
+    <script src="assets/js/moment-timezone-with-data.min.js"></script>
+    <!--====== mSupport js ======-->
+    <script src="assets/js/mSupport-main.js"></script>
+  </body>
+</html>
