@@ -66,7 +66,7 @@ function mcs_demo_shortcode_function($atts)
                                     </select>
                                     <div class="mcs-layouts layouts__sidebar wpChat-demo-scroll">
                                         <div class="row gx-2">
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_1">
+                                            <div class="col-md-6 mb-4 usage_example selected" data-show="#example_1">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-center.png' ?>" alt="" />
                                                     <div class="layouts__title">Header Center</div>

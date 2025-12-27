@@ -28,6 +28,10 @@
         "#example_1, #example_2, #example_3, #example_4, #example_5, #example_6, #example_7, #example_8, #example_9"
       ).hide().removeClass("teleSupport-show");
 
+            $(
+        "#example_1, #example_2, #example_3, #example_4, #example_5, #example_6, #example_7, #example_8, #example_9"
+      ).hide().removeClass("mSupport-show");
+
       $show.slideDown(200, function () {
         setTimeout(function () {
           if ($show.find(".example_popup")[0] !== undefined) {
