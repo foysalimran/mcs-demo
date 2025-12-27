@@ -64,7 +64,7 @@ function mcs_demo_shortcode_function($atts)
                                             <option data-animation="#animation_12" value="12"> Super Scaled </option>
                                             <option data-animation="#animation_13" value="13"> Slide Up </option>
                                         </select>
-                                        <div class="watsHelp-layouts layouts__sidebar wpChat-demo-scroll">
+                                        <div class="mcs-layouts layouts__sidebar wpChat-demo-scroll">
                                             <div class="row gx-2">
                                                 <div class="col-md-6 mb-4 usage_example selected" data-show="#example_1">
                                                     <div class="layouts__design">

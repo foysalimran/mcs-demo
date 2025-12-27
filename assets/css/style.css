@@ -324,7 +324,7 @@ orbit colors
   }
 }
 .layouts .usage_example .layouts__design:hover {
-  border: 5px solid #7432ff;
+  border: 5px solid #0184FF;
 }
 .layouts .usage_example .layouts__design:hover .layouts__title {
   text-align: center;
@@ -333,7 +333,7 @@ orbit colors
 }
 
 .layouts .usage_example.selected .layouts__design {
-  border: 5px solid #7432ff;
+  border: 5px solid #0184FF;
 }
 .layouts .usage_example.selected .layouts__design .layouts__title {
   text-align: center;
@@ -612,6 +612,10 @@ orbit colors
 
 .layouts .watsHelp-layouts .usage_example.selected .layouts__design {
   border: 5px solid #118c7e;
+}
+
+.layouts .mcs-layouts .usage_example.selected .layouts__design {
+  border: 5px solid #0184FF;
 }
 
 .layouts .teleSupport-layouts .usage_example .layouts__design .layouts__title {
