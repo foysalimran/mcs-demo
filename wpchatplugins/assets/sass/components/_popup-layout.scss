@@ -1,4 +1,9 @@
+
+.layouts-page * {
+  box-sizing: border-box;
+}
 .layouts-page {
+  box-sizing: border-box;
   height: 700px;
   overflow: hidden;
   .layouts__title {
@@ -140,6 +145,7 @@
     margin-bottom: 20px;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid $color-dark-primary;
     &:focus {
       outline: none;
     }

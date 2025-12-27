@@ -41,7 +41,7 @@
     // TRIGGER BUTTON ON ANIMATION BUTTONS CLICK
 
     // CHANGE EFFECT OF THE POPUP
-    $("#change_effect, #change_effect_popup").on("change", function () {
+    $("#change_effect_popup").on("change", function () {
       let current = $(this).val();
       let items = $(".example_popup");
 
@@ -54,9 +54,7 @@
         $(this).addClass("animation" + current);
       });
     });
-    $("#change_effect, #change_effect_popup").trigger("change");
-    // $(".vChat__button").trigger("click");
-    $("#change_effect").togglebutton();
+    $("#change_effect_popup").trigger("change");
   };
 
   PATH.DibasicChange = () => {

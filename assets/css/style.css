@@ -117,7 +117,9 @@ orbit colors
 .wpChat-demo-scroll::-webkit-scrollbar-thumb:hover {
   opacity: 0.2;
 }
-
+.layouts-page * {
+  box-sizing: border-box;
+} 
 .layouts-page {
   height: 700px;
   overflow: hidden;
@@ -290,9 +292,45 @@ orbit colors
   margin-bottom: 20px;
   border-radius: 5px;
   cursor: pointer;
+  border: 1px solid #4a4f61;
+  padding: 10px;
 }
 .layouts #change_effect_popup:focus {
   outline: none;
+}
+.wpChat#example_9 {
+  padding: 30px;
+  height: 100%;
+  overflow-y: scroll;
+}
+.wpChat#example_9 h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.buttons_wrapper:not(:last-child) {
+  margin-bottom: 40px;
+}
+.buttons_wrapper button,
+.buttons_wrapper a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.section_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section_title h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.section_title p {
+  font-size: 16px;
+  color: #4a4f61;
+  margin: 0;
 }
 @media only screen and (max-width: 767px) {
   .layouts #change_effect_popup {

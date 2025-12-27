@@ -114,6 +114,12 @@ function mcs_demo_shortcode_function($atts)
                                                     <div class="layouts__title">Different Button</div>
                                                 </div>
                                             </div>
+                                            <div class="col-md-12 mb-4 usage_example" data-show="#example_9">
+                                                <div class="layouts__design">
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
+                                                    <div class="layouts__title">Buttons</div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="layouts__menu">
@@ -168,6 +174,12 @@ function mcs_demo_shortcode_function($atts)
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Different Button </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 mb-4 usage_example" data-show="#example_9">
+                                                    <div class="layouts__menu__design">
+                                                        <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
+                                                        <div class="layouts__menu__title"> Buttons </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -244,7 +256,7 @@ function mcs_demo_shortcode_function($atts)
                                             data-availability='{ "sunday":"00:00-00:01", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                             <div class="mSupport__popup--header">
                                                 <div class="image">
-                                                    <img src="assets/image/user.webp" alt="user" />
+                                                    <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                 </div>
                                                 <div class="info">
                                                     <h4 class="info__name">John Doe</h4>
@@ -257,7 +269,7 @@ function mcs_demo_shortcode_function($atts)
                                                 <div class="current-time"></div>
                                                 <div class="sms">
                                                     <div class="sms__user">
-                                                        <img src="assets/image/user.webp" alt="user" />
+                                                        <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                     </div>
                                                     <div class="sms__text">
                                                         <p>
@@ -304,7 +316,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -320,7 +332,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-5:59", "monday":"00:00-5:59", "tuesday":"00:00-5:59", "wednesday":"01:00-5:59", "thursday":"00:00-5:59", "friday":"00:01-5:59", "saturday":"00:00-5:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">James Brown</h5>
@@ -335,7 +347,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone="America/Los_Angeles"
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -350,7 +362,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone="America/Los_Angeles"
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -396,7 +408,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-05:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59"}'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -412,7 +424,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-5:59", "monday":"00:00-5:59", "tuesday":"00:00-5:59", "wednesday":"01:00-23:59", "thursday":"00:00-5:59", "friday":"00:01-5:59", "saturday":"00:00-5:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">James Brown</h5>
@@ -427,7 +439,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone="America/Los_Angeles"
                                                         data-useravailability='{ }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -442,7 +454,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -488,7 +500,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -504,7 +516,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-5:59", "monday":"00:00-5:59", "tuesday":"00:00-5:59", "wednesday":"01:00-5:59", "thursday":"00:00-5:59", "friday":"00:01-5:59", "saturday":"00:00-5:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">James Brown</h5>
@@ -519,7 +531,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone="America/Los_Angeles"
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -565,7 +577,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -581,7 +593,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone=""
                                                         data-useravailability='{ "sunday":"00:00-5:59", "monday":"00:00-5:59", "tuesday":"00:00-5:59", "wednesday":"01:00-5:59", "thursday":"00:00-5:59", "friday":"00:01-5:59", "saturday":"00:00-5:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">James Brown</h5>
@@ -596,7 +608,7 @@ function mcs_demo_shortcode_function($atts)
                                                         data-timezone="America/Los_Angeles"
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -610,7 +622,7 @@ function mcs_demo_shortcode_function($atts)
                                                         class="user mSupportUserAvailability"
                                                         data-useravailability='{ }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -624,7 +636,7 @@ function mcs_demo_shortcode_function($atts)
                                                         class="user mSupportUserAvailability"
                                                         data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                                         <div class="user__image">
-                                                            <img src="assets/image/user.webp" alt="user" />
+                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                         </div>
                                                         <div class="user__info">
                                                             <h5 class="user__info--name">Mia Smith</h5>
@@ -654,7 +666,7 @@ function mcs_demo_shortcode_function($atts)
                                             data-availability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                             <div class="mSupport__popup--header header-center">
                                                 <div class="image">
-                                                    <img src="assets/image/user.webp" alt="user" />
+                                                    <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                 </div>
                                                 <div class="info">
                                                     <h4 class="info__name">John Doe</h4>
@@ -665,7 +677,7 @@ function mcs_demo_shortcode_function($atts)
                                                 <div class="current-time"></div>
                                                 <div class="sms">
                                                     <div class="sms__user">
-                                                        <img src="assets/image/user.webp" alt="user" />
+                                                        <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                     </div>
                                                     <div class="sms__text">
                                                         <p>
@@ -697,7 +709,7 @@ function mcs_demo_shortcode_function($atts)
                                             data-availability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
                                             <div class="mSupport__popup--header header-center">
                                                 <div class="image">
-                                                    <img src="assets/image/user.webp" alt="user" />
+                                                    <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                 </div>
                                                 <div class="info">
                                                     <h4 class="info__name">John Doe</h4>
@@ -708,7 +720,7 @@ function mcs_demo_shortcode_function($atts)
                                                 <div class="current-time"></div>
                                                 <div class="sms">
                                                     <div class="sms__user">
-                                                        <img src="assets/image/user.webp" alt="user" />
+                                                        <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
                                                     </div>
                                                     <div class="sms__text">
                                                         <p>
@@ -723,6 +735,153 @@ function mcs_demo_shortcode_function($atts)
                                                     <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                 </button>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpChat" id="example_9">
+                                        <h1 style="text-align: center">
+                                            We have mainly three different type of buttons. Then, we also have three
+                                            sizes and three different designs for each button.
+                                        </h1>
+                                        <div class="section_title">
+                                            <h2>Button style 1</h2>
+                                            <p>You can use this style for popup button.</p>
+                                        </div>
+                                        <div class="buttons_wrapper">
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg mSupport-btn-sm">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg mSupport-btn-lg">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-rounded"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                        </div>
+
+                                        <div class="section_title">
+                                            <h2>Button style 2</h2>
+                                            <p>You can also use this style for popup button.</p>
+                                        </div>
+                                        <div class="buttons_wrapper">
+                                            <a
+                                                href="https://www.m.me/ThemeAtelier" target="_blank"
+                                                class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-sm mSupport-btn-bg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-bg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                            <a
+                                                href="https://www.m.me/ThemeAtelier" target="_blank"
+                                                class="mSupport-button-3 mSupport-btn-bg mSupport-btn-rounded mSupport-btn-lg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-bg">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3">
+                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                            </a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                        </div>
+                                        <div class="section_title">
+                                            <h2>Buttons with image and info</h2>
+                                            <p>These are buttons with your or your support team members info and
+                                                availability time. These are dynamic buttons. Means, it will show your
+                                                active an inactive time according to time availability attributes.
+                                                Inactive button are not clickable.</p>
+                                        </div>
+                                        <div class="buttons_wrapper">
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupport-btn-bg mSupportButtons mSupport-btn-sm"
+                                                data-btnavailablety='{ "sunday":"00:00-08:30", "monday":"00:00-08:30", "tuesday":"00:00-08:30", "wednesday":"00:00-08:00", "thursday":"00:00-23:59", "friday":"00:00-08:30", "saturday":"00:00-08:30" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupport-btn-bg mSupportButtons"
+                                                data-btnavailablety='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59", "saturday":"00:00-23:59" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupport-btn-bg mSupportButtons mSupport-btn-lg"
+                                                data-btnavailablety='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-08:00", "friday":"00:00-23:59", "saturday":"00:00-23:59" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support test</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupportButtons"
+                                                data-btnavailablety='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59", "saturday":"00:00-23:59" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupportButtons"
+                                                data-btnavailablety='{ "sunday":"00:00-08:30", "monday":"00:00-08:30", "tuesday":"00:00-08:30", "wednesday":"01:00-08:30", "thursday":"00:00-08:30", "friday":"00:00-08:30", "saturday":"00:00-08:30" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupport-btn-bg mSupport-btn-rounded mSupportButtons"
+                                                data-btnavailablety='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59", "saturday":"00:00-23:59" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
+                                            <button
+                                                data-timezone="America/Los_Angeles"
+                                                class="mSupport-bubble mSupport-button-4 mSupport-btn-rounded mSupportButtons"
+                                                data-btnavailablety='{ "sunday":"00:00-08:30", "monday":"00:00-08:30", "tuesday":"00:00-08:30", "wednesday":"01:00-08:30", "thursday":"00:00-08:30", "friday":"00:00-08:30", "saturday":"00:00-08:30" }'>
+                                                <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="" />
+                                                <div class="info-wrapper">
+                                                    <p class="info">Robert / Sales Support</p>
+                                                    <p class="title">Need Help? Text via messanger</p>
+                                                    <p class="online">I'm available</p>
+                                                    <p class="offline">I'm not available</p>
+                                                </div>
+                                                <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

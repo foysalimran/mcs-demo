@@ -117,7 +117,9 @@ orbit colors
 .wpChat-demo-scroll::-webkit-scrollbar-thumb:hover {
   opacity: 0.2;
 }
-
+* {
+  box-sizing: border-box;
+}
 .layouts-page {
   height: 700px;
   overflow: hidden;
