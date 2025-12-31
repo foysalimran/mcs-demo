@@ -22,7 +22,6 @@ function mcs_demo_shortcode_function($atts)
     ob_start();
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('icofont');
-    wp_enqueue_style('fontawesome');
     wp_enqueue_style('mcs-main');
     wp_enqueue_style('styles');
     wp_enqueue_script('select-togglebutton');
@@ -201,10 +200,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport wpChat" id="example_1">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div
@@ -234,7 +233,7 @@ function mcs_demo_shortcode_function($atts)
                                                     </div>
                                                 </div>
                                                 <button class="mSupport__send-message">
-                                                    <i class="fa-brands fa-facebook-messenger"></i>Start Chat
+                                                    <i class="icofont-facebook-messenger"></i>Start Chat
                                                     <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                 </button>
                                             </div>
@@ -244,10 +243,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport wpChat" id="example_2">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div
@@ -278,7 +277,7 @@ function mcs_demo_shortcode_function($atts)
                                                     </div>
                                                 </div>
                                                 <button class="mSupport__send-message" target="_blank">
-                                                    <i class="fa-brands fa-facebook-messenger"></i>Start Chat
+                                                    <i class="icofont-facebook-messenger"></i>Start Chat
                                                     <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                 </button>
                                             </div>
@@ -288,10 +287,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport-multi wpChat-multi" id="example_3">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div class="example_popup mSupport-multi__popup animation3">
@@ -380,10 +379,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport-multi mSupport-grid wpChat-multi wpChat-grid" id="example_4">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div class="example_popup mSupport-multi__popup animation3">
@@ -472,10 +471,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport-multi mSupport-left wpChat-multi wpChat-left" id="example_5">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div class="example_popup mSupport-multi__popup animation3">
@@ -549,10 +548,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="night-mode mSupport-multi wpChat-multi" id="example_6">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div class="example_popup mSupport-multi__popup animation3">
@@ -626,10 +625,10 @@ function mcs_demo_shortcode_function($atts)
                                     <div class="mSupport wpChat dark-mode" id="example_7">
                                         <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
                                             <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
+                                                <i class="icofont-facebook-messenger"></i>
                                             </span>
                                             <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
+                                                <i class="icofont-close"></i>
                                             </span>
                                         </button>
                                         <div
@@ -659,7 +658,7 @@ function mcs_demo_shortcode_function($atts)
                                                     </div>
                                                 </div>
                                                 <button class="mSupport__send-message" target="_blank">
-                                                    <i class="fa-brands fa-facebook-messenger"></i>Start Chat
+                                                    <i class="icofont-facebook-messenger"></i>Start Chat
                                                     <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                 </button>
                                             </div>
@@ -670,10 +669,10 @@ function mcs_demo_shortcode_function($atts)
                                         <button class="mSupport-bubble bubble mSupport-btn-bg circle-animation-1 example_button">
                                             <div class="bubble__icon bubble-animation4">
                                                 <span class="bubble__icon--open">
-                                                    <i class="fa-brands fa-facebook-messenger"></i>
+                                                    <i class="icofont-facebook-messenger"></i>
                                                 </span>
                                                 <span class="bubble__icon--close">
-                                                    <i class="fa-solid fa-xmark"></i>
+                                                    <i class="icofont-close"></i>
                                                 </span>
                                             </div>
                                             How can I help?
@@ -706,7 +705,7 @@ function mcs_demo_shortcode_function($atts)
                                                 <button
                                                     class="mSupport__send-message"
                                                     target="_blank">
-                                                    <i class="fa-brands fa-facebook-messenger"></i>Start Chat
+                                                    <i class="icofont-facebook-messenger"></i>Start Chat
                                                     <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                 </button>
                                             </div>
@@ -723,18 +722,18 @@ function mcs_demo_shortcode_function($atts)
                                         </div>
                                         <div class="buttons_wrapper">
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg mSupport-btn-sm">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-bg mSupport-btn-lg">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
-                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-rounded"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-2 mSupport-btn-rounded"><i class="icofont-facebook-messenger"></i>How can i help you?</a>
                                         </div>
 
                                         <div class="section_title">
@@ -744,18 +743,18 @@ function mcs_demo_shortcode_function($atts)
                                         <div class="buttons_wrapper">
                                             <a
                                                 href="https://www.m.me/ThemeAtelier" target="_blank"
-                                                class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-sm mSupport-btn-bg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
-                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-bg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                                class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-sm mSupport-btn-bg"><i class="icofont-facebook-messenger"></i>How can i help you?</a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded mSupport-btn-bg"><i class="icofont-facebook-messenger"></i>How can i help you?</a>
                                             <a
                                                 href="https://www.m.me/ThemeAtelier" target="_blank"
-                                                class="mSupport-button-3 mSupport-btn-bg mSupport-btn-rounded mSupport-btn-lg"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                                class="mSupport-button-3 mSupport-btn-bg mSupport-btn-rounded mSupport-btn-lg"><i class="icofont-facebook-messenger"></i>How can i help you?</a>
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-bg">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
                                             <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3">
-                                                <i class="fa-brands fa-facebook-messenger"></i>How can i help you?
+                                                <i class="icofont-facebook-messenger"></i>How can i help you?
                                             </a>
-                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded"><i class="fa-brands fa-facebook-messenger"></i>How can i help you?</a>
+                                            <a href="https://www.m.me/ThemeAtelier" target="_blank" class="mSupport-button-3 mSupport-btn-rounded"><i class="icofont-facebook-messenger"></i>How can i help you?</a>
                                         </div>
                                         <div class="section_title">
                                             <h2>Buttons with image and info</h2>
