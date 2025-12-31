@@ -89,6 +89,8 @@ const searchInfo = mSupportMultiPopupContent?.getAttribute("data-search");
 const isGrid = document
   .querySelector(".mSupport-multi")
   ?.classList.contains("mSupport-grid");
+  console.log('mSupportUserAvailability', mSupportUserAvailability);
+  
 
 if (mSupportUserAvailability !== undefined) {
   if (searchInfo === "true") {

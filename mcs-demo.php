@@ -68,55 +68,55 @@ function mcs_demo_shortcode_function($atts)
                                         <div class="row gx-2">
                                             <div class="col-md-6 mb-4 usage_example selected" data-show="#example_1">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-center.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-center.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Header Center</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_2">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-left.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-left.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Header Left</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_3">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-list.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-list.jpg' ?>" alt="" />
                                                     <div class="layouts__title">List Layout</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_4">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-grid.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-grid.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Grid Layout</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_5">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-left.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/left-position.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Left Position</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_6">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-dark.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-dark.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Dark Layout</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_7">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-color.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/different-color.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Different Color</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 usage_example" data-show="#example_8">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Different Button</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-4 usage_example" data-show="#example_9">
                                                 <div class="layouts__design">
-                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
+                                                    <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/buttons.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Buttons</div>
                                                 </div>
                                             </div>
@@ -618,34 +618,6 @@ function mcs_demo_shortcode_function($atts)
                                                         </div>
                                                         <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
                                                     </div>
-                                                    <div
-                                                        class="user mSupportUserAvailability"
-                                                        data-useravailability='{ }'>
-                                                        <div class="user__image">
-                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
-                                                        </div>
-                                                        <div class="user__info">
-                                                            <h5 class="user__info--name">Mia Smith</h5>
-                                                            <p class="user__info--title">Sales Support</p>
-                                                            <p class="user__info--online">I'm available</p>
-                                                            <p class="user__info--offline">I'm not available</p>
-                                                        </div>
-                                                        <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
-                                                    </div>
-                                                    <div
-                                                        class="user mSupportUserAvailability"
-                                                        data-useravailability='{ "sunday":"00:00-23:59", "monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"01:00-23:59", "thursday":"00:00-23:59", "friday":"00:01-23:59", "saturday":"00:00-23:59" }'>
-                                                        <div class="user__image">
-                                                            <img src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/common/user.webp' ?>" alt="user" />
-                                                        </div>
-                                                        <div class="user__info">
-                                                            <h5 class="user__info--name">Mia Smith</h5>
-                                                            <p class="user__info--title">Sales Support</p>
-                                                            <p class="user__info--online">I'm available</p>
-                                                            <p class="user__info--offline">I'm not available</p>
-                                                        </div>
-                                                        <a href="https://www.m.me/ThemeAtelier" target="_blank"></a>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -695,13 +667,16 @@ function mcs_demo_shortcode_function($atts)
                                     </div>
                                     <!-- Example 8 -->
                                     <div class="mSupport wpChat" id="example_8">
-                                        <button class="mSupport-bubble circle-bubble circle-animation-1 example_button">
-                                            <span class="open-icon">
-                                                <i class="fa-brands fa-facebook-messenger"></i>
-                                            </span>
-                                            <span class="close-icon">
-                                                <i class="fa-solid fa-xmark"></i>
-                                            </span>
+                                        <button class="mSupport-bubble bubble mSupport-btn-bg circle-animation-1 example_button">
+                                            <div class="bubble__icon bubble-animation4">
+                                                <span class="bubble__icon--open">
+                                                    <i class="fa-brands fa-facebook-messenger"></i>
+                                                </span>
+                                                <span class="bubble__icon--close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </span>
+                                            </div>
+                                            How can I help?
                                         </button>
                                         <div
                                             class="example_popup mSupport__popup animation13 chat-availability"

@@ -90,6 +90,11 @@ const isGrid = document
   .querySelector(".mSupport-multi")
   ?.classList.contains("mSupport-grid");
 
+  console.log('mSupportUserAvailability', mSupportUserAvailability.length);
+  console.log('isGrid', isGrid);
+  console.log('searchInfo', searchInfo);
+  
+
 if (mSupportUserAvailability !== undefined) {
   if (searchInfo === "true") {
     mSupportMultiPopupContent.classList.add("mSupport-search");
