@@ -20,7 +20,6 @@ add_shortcode('mcs_demo_shortcode', 'mcs_demo_shortcode_function');
 function mcs_demo_shortcode_function($atts)
 {
     ob_start();
-    wp_enqueue_style('bootstrap');
     wp_enqueue_style('icofont');
     wp_enqueue_style('mcs-main');
     wp_enqueue_style('styles');
@@ -28,7 +27,7 @@ function mcs_demo_shortcode_function($atts)
     wp_enqueue_script('moment');
     wp_enqueue_script('moment-timezone');
     wp_enqueue_script('mcs-main');
-    wp_enqueue_script('custom');
+    wp_enqueue_script('mcs-custom');
 ?>
     <!-- ========== Popup layout section start ========== -->
 
@@ -44,8 +43,8 @@ function mcs_demo_shortcode_function($atts)
         <div class="layouts">
             <div class="container-fluid">
                 <div class="usage_examples">
-                    <div class="row" id="usage_examples">
-                        <div class="col-sm-4 col-md-5 col-lg-4 col-xl-3 p-0">
+                    <div class="grid grid-cols-12 gap-5" id="usage_examples">
+                        <div class="col-span-12 md:col-span-5 lg:col-span-4 xl:col-span-3 p-0">
                             <div class="layouts__area">
                                 <div class="layouts__wrapper">
                                     <select id="change_effect_popup">
@@ -64,56 +63,56 @@ function mcs_demo_shortcode_function($atts)
                                         <option data-animation="#animation_13" value="13"> Slide Up </option>
                                     </select>
                                     <div class="mcs-layouts layouts__sidebar wpChat-demo-scroll">
-                                        <div class="row gx-2">
-                                            <div class="col-md-6 mb-4 usage_example selected" data-show="#example_1">
+                                        <div class="grid grid-cols-12 gap-5">
+                                            <div class="md:col-span-6 usage_example selected" data-show="#example_1">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-center.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Header Center</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_2">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_2">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-left.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Header Left</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_3">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_3">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-list.jpg' ?>" alt="" />
                                                     <div class="layouts__title">List Layout</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_4">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_4">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-grid.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Grid Layout</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_5">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_5">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/left-position.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Left Position</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_6">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_6">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-dark.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Dark Layout</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_7">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_7">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/different-color.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Different Color</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 usage_example" data-show="#example_8">
+                                            <div class="md:col-span-6 usage_example" data-show="#example_8">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Different Button</div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12 mb-4 usage_example" data-show="#example_9">
+                                            <div class="md:col-span-12 mb-4 usage_example" data-show="#example_9">
                                                 <div class="layouts__design">
                                                     <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/buttons.jpg' ?>" alt="" />
                                                     <div class="layouts__title">Buttons</div>
@@ -126,56 +125,56 @@ function mcs_demo_shortcode_function($atts)
                                             <i class="icofont-eye-open"></i>
                                         </button>
                                         <div class="layouts__menu__area">
-                                            <div class="row">
-                                                <div class="col-6 mb-4 usage_example selected" data-show="#example_1">
+                                            <div class="grid grid-cols-12">
+                                                <div class="col-span-6 mb-4 usage_example selected" data-show="#example_1">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-center.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Header Center </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_2">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_2">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/header-left.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Header Left </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_3">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_3">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-list.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> List Layout </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_4">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_4">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-grid.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Grid Layout </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_5">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_5">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-left.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Left Position </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_6">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_6">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-dark.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Dark Layout </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_7">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_7">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-color.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Different Color </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_8">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_8">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Different Button </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 mb-4 usage_example" data-show="#example_9">
+                                                <div class="col-span-6 mb-4 usage_example" data-show="#example_9">
                                                     <div class="layouts__menu__design">
                                                         <img class="img-fliud" src="<?php echo MCS_DEMO_PLUGIN_URL . 'assets/mcs-images/layout-button.png' ?>" alt="" />
                                                         <div class="layouts__menu__title"> Buttons </div>
@@ -187,7 +186,7 @@ function mcs_demo_shortcode_function($atts)
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-8 col-md-7 col-lg-8 col-xl-9 px-0">
+                        <div class="col-span-12 md:col-span-7 lg:col-span-8 xl:col-span-9 px-0">
                             <div class="layouts__popup">
                                 <button class="mobile-view">
                                     <i class="icofont-smart-phone"></i>
@@ -877,13 +876,10 @@ function mcs_demo_shortcode_function($atts)
  */
 function register_mcs_shortcode_styles()
 {
-    wp_register_style('bootstrap', plugins_url('assets/css/bootstrap.min.css', __FILE__));
     wp_register_style('icofont', plugins_url('assets/css/icofont.min.css', __FILE__));
     wp_register_style('fontawesome', plugins_url('assets/css/fontawesome-all.min.css', __FILE__));
     wp_register_style('sweetalert2', plugins_url('assets/css/sweetalert2.min.css', __FILE__));
     wp_register_style('mcs-main', plugins_url('assets/css/mcs-main.css', __FILE__));
-    wp_register_style('telegram-main', plugins_url('assets/css/teleSupport-main.css', __FILE__));
-    wp_register_style('vchat-main', plugins_url('assets/css/vchat-main.css', __FILE__));
     wp_register_style('styles', plugins_url('assets/css/style.css', __FILE__));
 
     wp_register_script('sweetalert2', MCS_DEMO_PLUGIN_URL . 'assets/js/sweetalert2.all.min.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
@@ -891,8 +887,6 @@ function register_mcs_shortcode_styles()
     wp_register_script('moment', MCS_DEMO_PLUGIN_URL . 'assets/js/moment.min.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
     wp_register_script('moment-timezone', MCS_DEMO_PLUGIN_URL . 'assets/js/moment-timezone-with-data.min.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
     wp_register_script('mcs-main', MCS_DEMO_PLUGIN_URL . 'assets/js/mcs-main.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
-    wp_register_script('telegram-main', MCS_DEMO_PLUGIN_URL . 'assets/js/teleSupport-main.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
-    wp_register_script('vchat-main', MCS_DEMO_PLUGIN_URL . 'assets/js/vchat-main.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
-    wp_register_script('custom', MCS_DEMO_PLUGIN_URL . 'assets/js/custom.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
+    wp_register_script('mcs-custom', MCS_DEMO_PLUGIN_URL . 'assets/js/custom.js', array('jquery'), MCS_DEMO_PLUGIN_VERSION, true);
 }
 add_action('wp_enqueue_scripts', 'register_mcs_shortcode_styles');

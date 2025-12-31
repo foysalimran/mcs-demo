@@ -58,9 +58,7 @@
         $(this).addClass("animation" + current);
       });
     });
-    $("#change_effect, #change_effect_popup").trigger("change");
-    // $(".vChat__button").trigger("click");
-    $("#change_effect").togglebutton();
+    $("#change_effect_popup").trigger("change");
   };
 
   PATH.DibasicChange = () => {
