@@ -1006,12 +1006,12 @@ body {
     .bubble__icon.bubble-animation3 .bubble__icon--close {
       right: 10px; }
     .bubble__icon.bubble-animation4 .bubble__icon--open {
-      left: 16px;
+      left: 19px;
       top: 12px;
       transform: translate(-48%, -58%); }
     .bubble__icon.bubble-animation4 .bubble__icon--close {
-      left: -6px;
-      top: 12px;
+      left: -3px;
+      top: 13px;
       transform: translate(-40%, -150%); }
   .bubble.mSupport-btn-bg {
     background-color: var(--color-primary);
