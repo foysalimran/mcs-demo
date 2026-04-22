@@ -14,7 +14,9 @@
         layoutMenu.style.display = "none";
       }
 
-      $("#example_1, #example_2, #example_3, #example_4, #example_5, #example_6, #example_7, #example_8, #example_9")
+      $(
+        "#example_1, #example_2, #example_3, #example_4, #example_5, #example_6, #example_7, #example_8, #example_9",
+      )
         .hide()
         .removeClass("vChat-show wHelp-show teleSupport-show mSupport-show");
 
@@ -46,33 +48,35 @@
 
     // 🔥 HASH HANDLER
     function handleHash() {
-  var hash = window.location.hash;
+      var hash = window.location.hash;
 
-  if (hash) {
-    var $targetBtn = $('.usage_example[data-show="' + hash + '"]');
+      if (hash) {
+        var $targetBtn = $('.usage_example[data-show="' + hash + '"]');
 
-    if ($targetBtn.length) {
-      $(".usage_example.selected").removeClass("selected");
-      $targetBtn.addClass("selected");
+        if ($targetBtn.length) {
+          $(".usage_example.selected").removeClass("selected");
+          $targetBtn.addClass("selected");
 
-      showExample($targetBtn);
+          showExample($targetBtn);
 
-      // ✅ scroll to #shortcode instead of top
-      setTimeout(function () {
-        var target = document.getElementById("shortcode");
-        if (target) {
-          target.scrollIntoView({
-            behavior: "smooth", // চাইলে "auto" দিতে পারো
-            block: "start"
-          });
+          // ✅ scroll to #shortcode instead of top
+          setTimeout(function () {
+            var target = document.getElementById("shortcode");
+            if (target) {
+              target.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          }, 50);
         }
-      }, 50);
+      }
     }
-  }
-}
 
     // 🔥 INITIAL LOAD
-    handleHash();
+    setTimeout(function () {
+      handleHash();
+    }, 100);
 
     // 🔥 HASH CHANGE (manual URL change)
     $(window).on("hashchange", function () {
@@ -122,9 +126,7 @@
     PATH.DibasicChange();
     PATH.ButtonsLayout();
   });
-
 })(jQuery);
-
 
 /******************** DARK VERSION ********************/
 function setTheme(themeName) {

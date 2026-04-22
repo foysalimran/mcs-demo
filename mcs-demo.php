@@ -3,7 +3,7 @@
 /**
  * Plugin Name: MCS Demo
  * Description: A demo plugin for MCS functionality.
- * Version: 1.0.4
+ * Version: 1.0.6
  * Author: ThemeAtelier
  * License: GPL2
  * Text Domain: mcs-demo
@@ -11,7 +11,7 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-define('MCS_DEMO_PLUGIN_VERSION', '1.0.4');
+define('MCS_DEMO_PLUGIN_VERSION', '1.0.6');
 define('MCS_DEMO_PLUGIN_URL', trailingslashit(plugins_url('/', __FILE__)));
 
 
